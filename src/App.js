@@ -24,7 +24,8 @@ firebase.auth().signInWithPopup(provider)
     isSignedIn: true,
     name:displayName,
     email: email,
-    photo: photoURL
+    photo: photoURL,
+  
   }
   setUser(signedInUser);
 
